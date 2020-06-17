@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.site-header {
+    padding: 20px 0;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.barra {
+    background-color: rgb(114, 126, 122);
+}
+
+.navegacion-principal a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+@media (min-width:768px) {
+    .navegacion-principal a {
+        display: inline-block;
+    }
+}
+
+.navegacion-principal a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
