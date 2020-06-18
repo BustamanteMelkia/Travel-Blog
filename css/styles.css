@@ -42,6 +42,44 @@
     .btn:hover {
         background: rgba(0, 0, 0, 0.5);
     }
+    
+    .contenedor {
+        max-width: 1200px;
+        margin: 0 auto;
+        overflow: auto;
+    }
+    /**Responsive Menu**/
+    
+    .barra {
+        overflow: hidden;
+    }
+    
+    .responsive-menu {
+        color: white;
+        font-size: 25px;
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .navegacion-principal {
+        max-height: 0;
+        transition: 0.5s;
+    }
+    
+    #nav:target {
+        max-height: 800px;
+    }
+    
+    @media (min-width: 768px) {
+        .navegacion-principal {
+            max-height: unset;
+        }
+        .responsive-menu,
+        .cerrar {
+            display: none!important;
+        }
+    }
     /**Header**/
     
     @media (min-width: 768px) {
@@ -52,12 +90,6 @@
     
     .site-header {
         padding: 20px 0;
-    }
-    
-    .contenedor {
-        max-width: 1200px;
-        margin: 0 auto;
-        overflow: auto;
     }
     /**Navegation**/
     

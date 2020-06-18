@@ -5,21 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Blog</title>
+    <script src="https://kit.fontawesome.com/9dab8ca62d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header class="site-header contenedor">
-        <img src="img/logo.png" alt="logotipo">
+        <a href="index.html"><img src="img/logo.png" alt="logotipo"></a>
+
     </header>
     <div class="barra">
-        <nav class="navegacion-principal contenedor">
+        <a href="#nav" class="responsive-menu">
+            <i class="fas fa-ellipsis-v"></i>
+        </a>
+        <nav id="nav" class="navegacion-principal contenedor">
             <a href="#">Inicio</a>
             <a href="#">Blog</a>
             <a href="#">Tienda Virtual</a>
             <a href="#">Nosotros</a>
             <a href="#">Contacto</a>
+            <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
         </nav>
     </div>
     <div class="contenedor">
