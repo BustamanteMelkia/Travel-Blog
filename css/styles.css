@@ -115,7 +115,48 @@
     .navegacion-principal a:hover {
         background: rgba(0, 0, 0, 0.3);
     }
-    /**Main**/
+    /*____________________________Tabs__________________________*/
+    .servicios{
+        margin-top: 30px;
+    }
+    .servicios nav{
+        background-color: #33c0e4;
+    }
+    .servicios nav a{
+        display: inline-block;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 15px;
+    }
+    .servicios nav a:hover{
+        background-color: rgb(104, 104, 104);
+    }
+    /**Para mostrar los tags con position-relative y absolute**/
+    .nuestros-servicios{
+        position: relative;
+        height: 150px;
+    }
+    .nuestros-servicios > div{
+        /* display: none; Quitar esta línea para la versión con position-relative y absolute */
+        background-color: rgb(104, 104, 104);
+        color: #ffffff;
+        padding: 20px;
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+    }
+    .nuestros-servicios > div h2{
+        margin: 0;
+        color: #ffffff;
+    }
+    .nuestros-servicios > div p{
+        line-height: 1.5;
+    }
+    .activo{
+        background-color: rgb(104, 104, 104);
+    }
+
+    /**___________________________Main__________________________**/
     
     .contenido-principal,
     .sidebar {

@@ -8,15 +8,18 @@
     <script src="https://kit.fontawesome.com/9dab8ca62d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+
+    <script src="JS/jquery.js"></script>
+    <script src="JS/main.js"></script>
+    <!-- <script src="JS/index.js"></script> -->
 </head>
 
 <body>
     <header class="site-header contenedor">
         <a href="index.html"><img src="img/logo.png" alt="logotipo"></a>
-
     </header>
     <div class="barra">
-        <a href="#nav" class="responsive-menu">
+        <a id="logo" href="#nav" class="responsive-menu" >
             <i class="fas fa-ellipsis-v"></i>
         </a>
         <nav id="nav" class="navegacion-principal contenedor">
@@ -27,6 +30,30 @@
             <a href="#">Contacto</a>
             <a href="#" class="cerrar"><i class="fas fa-times"></i></a>
         </nav>
+    </div>
+    <div class="contenedor servicios">
+        <nav>
+            <a href="#viajes">Viajes</a>
+            <a href="#asesorias">Asesorias</a>
+            <a href="#transporte">Transporte</a>
+        </nav>
+        <div class="nuestros-servicios">
+            <div id="viajes">
+                <h2>Viajes</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, ipsum ducimus nulla nam aspernatur vitae sed laborum officia, tempora commodi totam corrupti ipsam est? A quasi nobis eligendi quidem adipisci.
+                </p>
+            </div>
+            <div id="asesorias">
+                <h2>Cursos y Asesorías</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, ipsum ducimus nulla nam aspernatur vitae sed laborum officia, tempora commodi totam corrupti ipsam est? A quasi nobis eligendi quidem adipisci.
+                </p>
+            </div>
+            <div id="transporte">
+                <h2>Transporte</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, ipsum ducimus nulla nam aspernatur vitae sed laborum officia, tempora commodi totam corrupti ipsam est? A quasi nobis eligendi quidem adipisci.
+                </p>
+            </div>
+        </div>
     </div>
     <div class="contenedor">
         <main class="contenido-principal">
@@ -52,7 +79,7 @@
                 <a href="#" class="btn">Leer Más</a>
             </article>
         </main>
-        <aside class="sidebar">
+        <aside class="sidebar" id="sidebar">
             <section>
                 <h2>Otras Entradas</h2>
                 <ul>
